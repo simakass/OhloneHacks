@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<div class="area1">
+  <script src="second_exp.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="final-hackathon.css">
+  <h1></h1>
+  <h3> This is a schedule generator for your classes</h3>
+</div>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+</style>
+<div class="area2">
+  <table>
+    <tr>
+      <th></th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+    <tr id="row-6">
+      <td>6:00am</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday"></td>
+    </tr>
+
+    <tr id="row-7">
+      <td>7:00am</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday"></td>
+    </tr>
+    <t id="row-8">
+      <td>8:00am</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">        </td>
+    <tr id="row-9">
+      <td>9:00am</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-10">
+      <td>10:00am</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday"></td>
+    </tr>
+    <tr id="row-11">
+      <td>11:00am</td>
+      <td class="Monday">        </td>
+      <td class="Tuesday">       </td>
+      <td class="Wednesday">     </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">        </td>
+    </tr>
+    <tr id="row-12">
+      <td>12:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-13">
+      <td>1:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-14">
+      <td>2:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-15">
+      <td>3:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-16">
+      <td>4:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-17">
+      <td>5:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+    <tr id="row-18">
+      <td>6:00pm</td>
+      <td class="Monday">      </td>
+      <td class="Tuesday">      </td>
+      <td class="Wednesday">      </td>
+      <td class="Thursday">      </td>
+      <td class="Friday">         </td>
+    </tr>
+  </table>
+</div>
+<div class="area3">
+
+  <label for="class-color">Pick a color for your first class:</label>
+  <select name="class-color" id="class-color">
+    <option value="choose">--choose one--</option>
+    <option value="blue">blue</option>
+    <option value="red">red</option>
+    <option value="green">green</option>
+    <option value="yellow">yellow</option>
+  </select>
+
+  <label for="class-time-start">What time does your first class start?</label>
+
+  <select name="class-time-start" id="class-time-start">
+    <option value="choose">--choose one--</option>
+   <option value="8">8am</option>
+   <option value="9">9am</option>
+   <option value="10">10am</option>
+   <option value="11">11am</option>
+   <option value="12">12pm</option>
+   <option value="13">1pm</option>
+   <option value="14">2pm</option>
+   <option value="15">3pm</option>
+   <option value="16">4pm</option>
+   <option value="17">5pm</option>
+  </select>
+  <label for="class-time-start">What time does your first class end?</label>
+  <select name="class-time-end" id="class-time-end">
+    <option value="choose">--choose one--</option>
+   <option value="9">9am</option>
+   <option value="10">10am</option>
+   <option value="11">11am</option>
+   <option value="12">12pm</option>
+   <option value="13">1pm</option>
+   <option value="14">2pm</option>
+   <option value="15">3pm</option>
+   <option value="16">4pm</option>
+   <option value="17">5pm</option>
+   <option value="18">6pm</option>
+  </select>
+  <p>What days do you have this class</p>
+  <input type="checkbox" id="monday-checkbox" name="Monday" value="Monday">
+  <label for="Monday"> Monday</label><br>
+  <input type="checkbox" id="tuesday-checkbox" name="Tuesday" value="Tuesday">
+  <label for="Tuesday"> Tuesday</label><br>
+  <input type="checkbox" id="wednesday-checkbox" name="Wednesday" value="Wednesday">
+  <label for="Wednesday"> Wednesday</label><br>
+  <input type="checkbox" id="thursday-checkbox" name="Thursday" value="Thursday">
+  <label for="Thursday"> Thursday</label><br>
+  <input type="checkbox" id="friday-checkbox" name="Friday" value="Friday">
+  <label for="Friday"> Friday</label><br>
+  <input type="submit" value="Submit Info" onclick="myFunk()">
+</div>
+</body>
+</html>
